@@ -1,0 +1,213 @@
+﻿internalid,name
+-4117,Originating Lead
+-4106,Profile Type
+-1504,Secret
+-1501,Certificate
+-1404,Employee Type Category
+-1403,Employee Status Category
+-914,Employee Expense Source Type
+-913,Imported Employee Expense Status
+-907,Project Budget
+-905,Unlocked Time Period
+-902,Imported Employee Expense
+-900,Work Breakdown Structure
+-865,Memorized Transaction
+-556,Import Account Mapping
+-555,Budget Exchange Rate
+-554,Transaction Type Code
+-553,Format Profile
+-551,Subsidiary Settings
+-549,Vendor-Subsidiary Relationship
+-548,Financial Institution
+-546,Customer-Subsidiary Relationship
+-533,Resource Group
+-532,News Item
+-528,Project Time Approval Type
+-517,Project Resource Role
+-514,Foreign Currency Variance Posting Rule
+-506,Item Location Configuration
+-466,Recommendation Blocklist
+-465,Recommendation Scenario
+-461,Item Collection-Item map
+-460,Item Collection
+-438,Domain
+-420,Budget
+-418,Script Deployment
+-417,Script
+-414,Accounting Context
+-408,Bank Import History
+-400,Nexus
+-396,Budget Category
+-387,Advanced PDF/HTML Template
+-375,Device Id
+-371,Location Type
+-365,Revenue Recognition Field Mapping
+-357,Revenue Recognition Rule
+-349,Create Revenue Plans On
+-348,Revenue Allocation Group
+-347,Revenue Recognition Plan
+-343,Reforecast Method
+-340,Fair Value Dimension
+-336,Revenue Element
+-335,Fair Value Formula
+-332,Fair Value Price
+-331,Item Revenue Category
+-324,Incoterm
+-322,Consolidated Exchange Rate
+-321,Project Template
+-320,Case Profile
+-319,Charge Billing Mode
+-315,Custom Recognition Event Type
+-314,Revenue Recognition Event
+-310,Generic Resource
+-301,Resource Allocation Approval Status
+-292,Timesheet
+-289,Address
+-287,Project Expense Type
+-282,Currency Symbol Placement
+-281,Negative Number Format
+-280,Number Format
+-278,Allocation Type
+-266,Inventory Number
+-264,Task Item Status
+-262,Fiscal Calendar
+-261,Period Subsidiary
+-256,Time
+-253,Accounting Book
+-251,Item Account Mapping
+-250,Global Account Mapping
+-245,Shipping Status
+-244,Order Status
+-243,Approval Status
+-241,Edition
+-240,Consolidated Rate Type
+-239,Tax Rounding Type
+-238,Timezone
+-237,Locale
+-236,Workflow Release Status
+-235,Workflow Trigger Type
+-234,Billing Schedule Type
+-232,Amortization Type
+-230,Event Response Type
+-229,Campaign Email
+-228,Category 1099 Misc
+-227,Campaign Event Type
+-226,Campaign Event Response
+-225,Product Tax
+-224,Language
+-223,Entity Stage
+-222,Event Priority
+-220,Phone Call Status
+-219,Task Status
+-218,Event Status
+-215,Account Type
+-214,Entity Type
+-213,Field Type
+-211,Project Constraint Type
+-207,Cost Estimate Type
+-203,Win/Loss Reason
+-202,Visa Type
+-199,Term
+-198,Tax Type
+-197,Subscription Status
+-196,Workplace
+-195,State
+-193,Shipping Package
+-192,Shipping Method
+-190,Sales Forecast Type
+-188,Resident Status
+-184,Costing Method Type
+-183,Payment Method
+-182,Partner Category
+-181,Other Name Category
+-180,Note Type
+-179,Merchant Account
+-178,Marital Status
+-177,Project Type
+-171,Transaction Form
+-170,Event Reminder Type
+-169,Event Reminder Duration
+-168,Ethnicity
+-167,Entry Form
+-166,Employee Status
+-165,Email Preference Type
+-164,Transaction Status
+-163,Case Territory
+-162,Sales Territory
+-161,Customer Message
+-160,Credit Hold Override Type
+-159,Country
+-158,Contact Category
+-157,Contact Role
+-156,Work Calendar
+-154,Case Type
+-153,Case Priority
+-152,Case Origin
+-151,Case Issue
+-150,Campaign Vertical
+-149,Campaign Subscription
+-148,Campaign Search Engine
+-147,File Type
+-146,Campaign Offer
+-145,Campaign Family
+-144,Campaign Channel
+-143,Campaign Category
+-142,Campaign Audience
+-141,Billing Schedule
+-140,Billing Milestone
+-138,Allocation Schedule
+-137,Address Book
+-136,Buying Reason
+-135,Buying Time Frame
+-134,Sales Readiness
+-132,Case Status
+-131,Campaign Response Type
+-129,Workflow
+-128,Tax Code
+-127,Tax Period
+-126,Expense Category
+-125,Scripted Record Type
+-124,Field
+-123,Record Type
+-122,Currency
+-120,Email Template
+-119,Saved Search
+-118,Role
+-117,Subsidiary
+-112,Account
+-111,Employee Type
+-110,Vendor Category
+-109,Customer Category
+-108,Competitor
+-106,Item Type
+-105,Accounting Period
+-104,Entity Status
+-103,Location
+-102,Department Section
+-101,Class
+-100,Transaction Type
+-31,Opportunity
+-30,Transaction
+-28,Resource Allocation
+-27,Project Task
+-25,Solution
+-24,Campaign
+-23,Case
+-22,Call
+-21,Task
+-20,Event
+-10,Item
+-9,Entity
+-8,Entity Group
+-7,Project
+-6,Contact
+-5,Partner
+-4,Employee
+-3,Vendor
+-2,Customer
+-390,Integration Application
+-394,Preference
+-393,Enable Features
+-189,Revenue Recognition Schedules
+-548,Financial Institution Records
+-268,Set Up Web Site
