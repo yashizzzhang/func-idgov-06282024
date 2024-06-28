@@ -143,6 +143,15 @@ class Infosec:
             df = pd.concat([df, temp_df], axis=0)
         return df
     
+    def list_timeline_events(self, limit=1000) -> pd.DataFrame:
+        logging.info('Infosec: list_timeline_events()')
+        url = f'/timeline-events?limit={limit}'
+        records = self.get_all(url=url)
+        target_campaign_id = 'GiT'
+        results = [record for record in records if record.get('campaign_id') == target_campaign_id]
+        df = pd.DataFrame(results)
+ 
+        return df
 
     ## List All Runs For A Single Campaign
     # List All Runs For A Single Campaign
@@ -153,20 +162,30 @@ class Infosec:
         target_campaign_id = 'GiT'
         results = [record for record in records if record.get('campaign_id') == target_campaign_id]
         df = pd.DataFrame(results)
+        print(df.columns)
 
         df.rename(columns={
             'learner_id': 'learner_id',
             'campaign_id': 'campaign_id',
             'campaign_run_id': 'run_id',
+            'type': 'status',
+            'timestamp': 'completed_on'
         }, inplace=True)
 
         df['email'] = None
         df['first_name'] = None
         df['last_name'] = None
-        df['status'] = None
-        df['completed_on'] = None
+
+        if 'completed_on' in df.columns:
+            df['completed_on'] = pd.to_datetime(df['completed_on'])
+        else:
+            raise KeyError("The 'completed_on' column (timestamp) is missing in the DataFrame.")
+
+        df = df.sort_values(by=['learner_id', 'completed_on'], ascending=[True, False])
+        df = df.drop_duplicates(subset=['learner_id'], keep='first')
         
-        # Reorder the columns to match the desired output
+        df['status'] = df['status'].apply(lambda x: 'completed' if x == 'completed-aware-module' else 'not_started' if x == 'started-aware-reminder' else 'started')
+        df['completed_on'] = df['completed_on'].dt.strftime('%Y-%m-%d %H:%M:%S.%f').str[:-3]
         df = df[['learner_id', 'email', 'first_name', 'last_name', 'campaign_id', 'run_id', 'status', 'completed_on']]
-        
+    
         return df
